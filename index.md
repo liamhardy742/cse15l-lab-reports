@@ -7,4 +7,4 @@ Giraffe
 - Dog
 - Mouse
 
-[Link](project.html)
+[Link](projects.html)

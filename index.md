@@ -7,4 +7,4 @@ Giraffe
 - Dog
 - Mouse
 
-[Link](github.com/liamhardy742/cse15l-lab-reports/edit/main/projects.html)
+[Link](projects.html)

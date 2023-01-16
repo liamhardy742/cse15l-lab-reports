@@ -31,6 +31,6 @@ CSE 15L
 - cat
 An example of using some basic commands can be shown below:
 ![Image](TestSomeCommands.png)
-In this example, I used `ls` to list the current files/directories in the current working directory, then used `cd` to ender the `perl5` directory that was within my user directory. Then I used `mkdir` in order to make a directory called `test_directory`, although because I had already done that earlier, it gave me the error message that the file already exists.
+\nIn this example, I used `ls` to list the current files/directories in the current working directory, then used `cd` to ender the `perl5` directory that was within my user directory. Then I used `mkdir` in order to make a directory called `test_directory`, although because I had already done that earlier, it gave me the error message that the file already exists.
 I then used `ls` to list the files in the current working directory again, and then attempted to list the files in a directory created by another user, which I was denied access too because I am not logged in as that user
 

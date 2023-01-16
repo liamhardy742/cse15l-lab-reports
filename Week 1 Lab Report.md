@@ -11,7 +11,7 @@ CSE 15L
 3. Select the version that matches your machine's specificities
 ![Image](VS Code Second Screenshot.png)
 
-## How to log in to your course specific ieng6 account and remotely connect to a server
+## How to log in to your course specific ieng6 account and remotely connect to a server in the CSE Basement
 
 1. If you do not know your ieng6 account information, follow [these](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) instructions. After that, open Visual Studio Code and open a terminal window as shown below or with the shortcut Ctrl + \` for Windows or Command + \` for Mac.
 ![Image](VS Code Opening a Terminal.png)

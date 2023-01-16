@@ -16,7 +16,8 @@ CSE 15L
 1. If you do not know your ieng6 account information, follow [these](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) instructions. After that, open Visual Studio Code and open a terminal window as shown below or with the shortcut Ctrl + \` for Windows or Command + \` for Mac.
 ![Image](VS Code Opening a Terminal.png)
 
-2. In order to remotely connect to a server, we will use `ssh`. Type `ssh <insertUsername>@ieng6.ucsd.edu`, where `<insertUsername>` is replaced with your username for your ieng6 account. If this server is new to your machine, you will be told that the host's authenticity has not been verified. In order to verify, type `yes` and press enter. You will then be prompted for a password. Enter the password for your ieng6 account and now you are connected to the server. The process after completion is shown below, you should see something like this: \n
+2. In order to remotely connect to a server, we will use `ssh`. Type `ssh <insertUsername>@ieng6.ucsd.edu`, where `<insertUsername>` is replaced with your username for your ieng6 account. If this server is new to your machine, you will be told that the host's authenticity has not been verified. In order to verify, type `yes` and press enter. You will then be prompted for a password. Enter the password for your ieng6 account and now you are connected to the server. The process after completion is shown below, you should see something like this:  
+
 ![Image](AfterLogin.png)
 
 
@@ -29,8 +30,10 @@ CSE 15L
 - mkdir
 - pwd
 - cat
-An example of using some basic commands can be shown below:
-![Image](TestSomeCommands.png)
-\nIn this example, I used `ls` to list the current files/directories in the current working directory, then used `cd` to ender the `perl5` directory that was within my user directory. Then I used `mkdir` in order to make a directory called `test_directory`, although because I had already done that earlier, it gave me the error message that the file already exists.
+An example of using some basic commands can be shown below:  
+
+![Image](TestSomeCommands.png)  
+
+In this example, I used `ls` to list the current files/directories in the current working directory, then used `cd` to ender the `perl5` directory that was within my user directory. Then I used `mkdir` in order to make a directory called `test_directory`, although because I had already done that earlier, it gave me the error message that the file already exists.
 I then used `ls` to list the files in the current working directory again, and then attempted to list the files in a directory created by another user, which I was denied access too because I am not logged in as that user
 

@@ -12,9 +12,10 @@ CSE 15L
 ![Image](VS Code Second Screenshot.png)
 
 ## How to log in to your course specific ieng6 account and remotely connect to a server in the CSE Basement
-1. If you know your ieng6 account information, skip to step 2. If not, click ![this](https://sdacs.ucsd.edu/~icc/index.php) link and enter your ucsd username and student ID, or if you do not remember your ucsd username, you can use your last name in combination with your student ID to look up your account. Click submit and either way you should end up on a page where you can click the change password button shown below (you may have to click your account name as an intermediate step if you have multiple):  
-![Image](ChangeYourPassword.png). 
-Now, enter your old password, and your new password as it prompts, then instead of clicking the blue "check password" button, just press enter.
+1. If you know your ieng6 account information, skip to step 2. If not, click [this](https://sdacs.ucsd.edu/~icc/index.php) link and enter your ucsd username and student ID, or if you do not remember your ucsd username, you can use your last name in combination with your student ID to look up your account. Click submit and either way you should end up on a page where you can click the change password button shown below (you may have to click your account name as an intermediate step if you have multiple):  
+![Image](ChangeYourPassword.png)  
+Now, enter your old password, and your new password as it prompts, then instead of clicking the blue "check password" button, just press enter. You should now have reset your password and should know your password to your ieng6 account.  
+
 2. Open Visual Studio Code and open a terminal window as shown below or with the shortcut Ctrl + \` for Windows or Command + \` for Mac.  
 
 ![Image](VS Code Opening a Terminal.png)

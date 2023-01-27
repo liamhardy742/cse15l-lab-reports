@@ -44,9 +44,9 @@ public class VerticalStringList {
     }
 }
 ```
-
-
-
+\\
+\\
+**Server after one String has been added**
 ![OneItemAdded](LabReportTwoScreenshots/LabReport2OneStringAdded.png)
 When this path is given, the `handleRequest()` method is called. 
 The relevant value for this method is of course the `URI url` argument that is passed into the method.
@@ -57,7 +57,7 @@ Because of these values, the `finalOutput` String is modified to include a newli
 and the String that is passed in in the query after the `=`, which is `Hello world!`. The value of `finalOutput` changed
 from `""` to `"Hello world!\n"`.
 
-
+**Server after two Strings have been added**
 ![TwoItemsAdded](LabReportTwoScreenshots/LabReport2TwoStringsAdded.png)
 This path is the same path as the previous screenshot, so the `handleRequest()` method is called.
 The `URI url` argument is once again the relevant value for this method, and in this case, the path is still `add-message` and

@@ -70,3 +70,36 @@ The `URI url` argument is once again the relevant value for this method, and in 
 the query is now `s=Oh%20hi%20there!`, equivalent to `s=Oh hi there!`.
 Because of these values, the `finalOutput` String goes from being `"Hello world!\n"` to being `"Hello world!\nOh hi there!"`.
 ## Part 2
+  
+The bug that I am choosing from lab 3 lies in the `reversed(int[] array)` method in the `ArrayExample.java` file. Which is shown below. 
+```
+// This is the method being tested.
+// Returns a *new* array with all the elements of the input array in reversed
+// order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+A failure inducing input is shown in the tester below,
+```
+@Test
+  public void testReversed() {
+    int[] input1 = {1,2,3,4,5};
+    int[] output1 = {5,4,3,2,1};
+    int[] result = ArrayExamples.reversed(input1);
+    printOutput(result);
+    assertArrayEquals(output1, ArrayExamples.reversed(input1));
+  }
+```
+This input does not induce failure:
+```
+@Test
+  public void testReversedEmpty() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```

@@ -28,8 +28,7 @@ CSE 15L
         }
     }
 }
-```
-```
+
 public class VerticalStringList {
     public static void main(String[] args) throws IOException {
        

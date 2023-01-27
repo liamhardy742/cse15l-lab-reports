@@ -4,7 +4,7 @@ CSE 15L
 
 
 # The StringServer `/add-message` path
-`
+```
 class Handler implements URLHandler {
    
     String finalOutput = "";
@@ -41,7 +41,7 @@ public class VerticalStringList {
         Server.start(port, new Handler()); 
     }
 }
-`
+```
 
 ![OneItemAdded](LabReportTwoScreenshots/LabReport2OneStringAdded.png)
 When this path is given, the `handlRequest()` method is called. 

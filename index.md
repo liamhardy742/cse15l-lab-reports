@@ -7,4 +7,5 @@ Giraffe
 - Dog
 - Mouse
 
-[Week 1 Lab Report](Week 1 Lab Report.md)
+[Lab Report 1](Week 1 Lab Report.md)
+[Lab Report 2](Week 2 Lab Report.md)

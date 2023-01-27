@@ -6,7 +6,8 @@ CSE 15L
 # The StringServer `/add-message` path
 ## Part 1
 **Code for my implementation of the server and URL handler**
-```class Handler implements URLHandler {
+```
+class Handler implements URLHandler {
    
     String finalOutput = "";
 

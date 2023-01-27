@@ -4,10 +4,9 @@ CSE 15L
 
 
 # The StringServer `/add-message` path
-
+## Part 1
 **Code for my implementation of the server and URL handler**
-```
-class Handler implements URLHandler {
+```class Handler implements URLHandler {
    
     String finalOutput = "";
 
@@ -56,10 +55,13 @@ In this case, the path is `/add-message` and the query is `s=Hello%20world!`, wh
 Because of these values, the `finalOutput` String is modified to include a newline character (`\n`) 
 and the String that is passed in in the query after the `=`, which is `Hello world!`. The value of `finalOutput` changed
 from `""` to `"Hello world!\n"`.
-
+\\
+\\
 **Server after two Strings have been added**
 ![TwoItemsAdded](LabReportTwoScreenshots/LabReport2TwoStringsAdded.png)
 This path is the same path as the previous screenshot, so the `handleRequest()` method is called.
 The `URI url` argument is once again the relevant value for this method, and in this case, the path is still `add-message` and
 the query is now `s=Oh%20hi%20there!`, equivalent to `s=Oh hi there!`.
 Because of these values, the `finalOutput` String goes from being `"Hello world!\n"` to being `"Hello world!\nOh hi there!"`.
+\\
+## Part 2

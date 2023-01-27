@@ -4,6 +4,8 @@ CSE 15L
 
 
 # The StringServer `/add-message` path
+
+**Code for my implementation of the server and URL handler**
 ```
 class Handler implements URLHandler {
    
@@ -43,10 +45,16 @@ public class VerticalStringList {
 }
 ```
 
+
+
 ![OneItemAdded](LabReportTwoScreenshots/LabReport2OneStringAdded.png)
-When this path is given, the `handlRequest()` method is called. 
+When this path is given, the `handleRequest()` method is called. 
 The relevant values for this method is of course the `URI url` argument that is passed into the method.
 An important part of `url` is if it contains a path, specifically that path being `/add-message` or not, as well as
 if the url containts a query, and whether the query's first parameter is "s".
+In this case, the path is `/add-message` and the query is `s=Hello%20world!`.
+Because of these values, the `finalOutput` String is modified to include a newline character (`\n`) 
+and the String that is passed in in the query after the `=`, which is `Hello%20world!`.
+
 
 ![TwoItemsAdded](LabReportTwoScreenshots/LabReport2TwoStringsAdded.png)

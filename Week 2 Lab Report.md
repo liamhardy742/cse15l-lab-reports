@@ -43,7 +43,10 @@ public class VerticalStringList {
     }
 }
 ```
-
+  
+  
+  
+  
 **Server after one String has been added**
 ![OneItemAdded](LabReportTwoScreenshots/LabReport2OneStringAdded.png)
 When this path is given, the `handleRequest()` method is called. 
@@ -54,7 +57,10 @@ In this case, the path is `/add-message` and the query is `s=Hello%20world!`, wh
 Because of these values, the `finalOutput` String is modified to include a newline character (`\n`) 
 and the String that is passed in in the query after the `=`, which is `Hello world!`. The value of `finalOutput` changed
 from `""` to `"Hello world!\n"`.
-
+  
+  
+  
+  
 
 **Server after two Strings have been added**
 ![TwoItemsAdded](LabReportTwoScreenshots/LabReport2TwoStringsAdded.png)

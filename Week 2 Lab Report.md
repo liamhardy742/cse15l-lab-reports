@@ -120,4 +120,34 @@ Another test that induces failure is shown below, with the same symptom as the t
 The debug console yet again shows a list full of zeros as the actual output of `ArrayExamples.reversed(input1)`:
 ![Test 2 Debug Output](LabReportTwoScreenshots/testReversedTwoSymptomDebugConsole.png)  
   
+  
+## What is the bug?
+The code with the bug is shown here:
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+After fixing the bug, the code looks like this:
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+Two lines needed to be changed. One was the 4th line, where the item in newArray should have been assigned to the item in arr, rather than
+the other way around as it was previously. The second was the 6th line, where the new array `newArray` should have been returned rather than `arr`.  
+  
+This change fixed the bug, as previously, `newArray` was initialized to an empty array, `arr` was then set to a reversed deep copy of `newArray`, and returned, resulting in a reversed 'empty array' always being returned, or an array where every element is 0. This change makes it so that instead of assigning a reversed deep copy of `newArray` to `arr`, a deep copy of `arr` is reversed and assigned to `newArray`, which then, because of the chagne on line 6, is returned.  
+  
+## Part 3  
+  
+In the lab for week 2, I learned how to write my own server to host a url on and use URLHandler to describe the server's behavior based on the path and the query. I learned what each section of the link means, with / indicating path and ? marking the query. Specifically I learned and practiced using methods from the URI class such as getQuery() and getPath() to make a server that has whatever behavior I want.
 

@@ -84,7 +84,7 @@ The bug that I am choosing from lab 3 lies in the `reversed(int[] array)` method
     return arr;
   }
 ```
-A failure inducing input is shown in the tester below:
+A failure inducing input of {1,2,3,4,5} is shown in the tester below:
 ```
 @Test
   public void testReversed() {
@@ -95,7 +95,7 @@ A failure inducing input is shown in the tester below:
     assertArrayEquals(output1, ArrayExamples.reversed(input1));
   }
 ```
-This input does not induce failure:
+This input (an empty array) does not induce failure:
 ```
 @Test
   public void testReversedEmpty() {
@@ -106,13 +106,14 @@ This input does not induce failure:
 The the `testReversedEmpty()` passes, as shown below:  
 ![Test succeeding](LabReportTwoScreenshots/testReveresedEmptySucceeding.png)  
   
-  
-The symptom of the `testReversed()` tester is that the resulting list is full of 0s, or {0, 0, 0, 0, 0}. The test failing is shown below.
+## Failing test #1  
+The symptom of the `testReversed()` tester is that the resulting list is full of 0s, or {0, 0, 0, 0, 0}. The test failing is shown below:
 ![Test Failing](LabReportTwoScreenshots/testReversedTesterAndFailure.png)  
   
 The debug console shows this as the actual output of `ArrayExamples.reversed(input1)`:
-![Debug Output](LabReportTwoScreenshots/testReversedSymptomDebugConsoleSmaller.png)  
+![Debug Output](LabReportTwoScreenshots/testReversedSymptoDebugConsoleSmaller.png)  
    
+ ## Failing test #2  
 Another test that induces failure is shown below, with the same symptom as the test above.
 ![Test 2 Failing](LabReportTwoScreenshots/testReversedTwoFailing.png)  
   

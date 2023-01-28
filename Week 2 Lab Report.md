@@ -112,8 +112,8 @@ The symptom of the `testReversed()` tester is that the resulting list is full of
   
 The debug console shows this as the actual output of `ArrayExamples.reversed(input1)`:
 ![Debug Output](LabReportTwoScreenshots/testReversedSymptoDebugConsoleSmaller.png)  
-   
- ## Failing test #2  
+     
+## Failing test #2  
 Another test that induces failure is shown below, with the same symptom as the test above.
 ![Test 2 Failing](LabReportTwoScreenshots/testReversedTwoFailing.png)  
   

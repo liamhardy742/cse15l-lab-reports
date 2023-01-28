@@ -103,7 +103,20 @@ This input does not induce failure:
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
+The the `testReversedEmpty()` passes, as shown below:  
+![Test succeeding](LabReportTwoScreenshots/testReveresedEmptySucceeding.png)  
+  
+  
 The symptom of the `testReversed()` tester is that the resulting list is full of 0s, or {0, 0, 0, 0, 0}. The test failing is shown below.
 ![Test Failing](LabReportTwoScreenshots/testReversedTesterAndFailure.png)  
+  
 The debug console shows this as the actual output of `ArrayExamples.reversed(input1)`:
-![Debug Output](LabReportTwoScreenshots/testReversedSymptomDebugConsole.png)
+![Debug Output](LabReportTwoScreenshots/testReversedSymptomDebugConsoleSmaller.png)  
+   
+Another test that induces failure is shown below, with the same symptom as the test above.
+![Test 2 Failing](LabReportTwoScreenshots/testReversedTwoFailing.png)  
+  
+The debug console yet again shows a list full of zeros as the actual output of `ArrayExamples.reversed(input1)`:
+![Test 2 Debug Output](LabReportTwoScreenshots/testReversedTwoSymptomDebugConsole.png)  
+  
+

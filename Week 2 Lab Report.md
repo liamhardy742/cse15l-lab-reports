@@ -106,7 +106,7 @@ This input (an empty array) does not induce failure:
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
-The the `testReversedEmpty()` passes, as shown below:  
+The `testReversedEmpty()` passes, as shown below:  
 ![Test succeeding](LabReportTwoScreenshots/testReversedEmptySucceedingBetter.png)  
   
 ## Failing test #1  

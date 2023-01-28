@@ -107,7 +107,7 @@ This input (an empty array) does not induce failure:
   }
 ```
 The the `testReversedEmpty()` passes, as shown below:  
-![Test succeeding](LabReportTwoScreenshots/testReveresedEmptySucceedingBetter.png)  
+![Test succeeding](LabReportTwoScreenshots/testReversedEmptySucceedingBetter.png)  
   
 ## Failing test #1  
 The symptom of the `testReversed()` tester is that the resulting list is full of 0s, or {0, 0, 0, 0, 0}. The test failing is shown below:

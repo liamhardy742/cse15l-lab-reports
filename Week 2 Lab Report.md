@@ -48,7 +48,8 @@ public class VerticalStringList {
   
   
   
-**Server after one String has been added**
+**Server after one String has been added**  
+
 ![OneItemAdded](LabReportTwoScreenshots/LabReport2OneStringAdded.png)
 When this path is given, the `handleRequest()` method is called. 
 The relevant value for this method is of course the `URI url` argument that is passed into the method.

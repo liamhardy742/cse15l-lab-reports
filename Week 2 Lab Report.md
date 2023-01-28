@@ -54,22 +54,26 @@ public class VerticalStringList {
 When this path is given, the `handleRequest()` method is called. 
 The relevant value for this method is of course the `URI url` argument that is passed into the method.
 An important part of `url` is if it contains a path, specifically that path being `/add-message` or not, as well as
-if the url containts a query, and whether the query's first parameter is "s".
+if the url contains a query, and whether the query's first parameter (when split using "=") is "s".
 In this case, the path is `/add-message` and the query is `s=Hello%20world!`, which is equivalent to `s=Hello world!`.
-Because of these values, the `finalOutput` String is modified to include a newline character (`\n`) 
-and the String that is passed in in the query after the `=`, which is `Hello world!`. The value of `finalOutput` changed
+Because of these values, the `finalOutput` String is modified to include the String that is passed in 
+in the query after the `=`, which is `Hello world!`, and a newline character (`\n`). The value of `finalOutput` changed
 from `""` to `"Hello world!\n"`.
   
   
   
   
 
-**Server after two Strings have been added**
+**Server after two Strings have been added**  
 ![TwoItemsAdded](LabReportTwoScreenshots/LabReport2TwoStringsAdded.png)
 This path is the same path as the previous screenshot, so the `handleRequest()` method is called.
-The `URI url` argument is once again the relevant value for this method, and in this case, the path is still `add-message` and
+The `URI url` argument is once again the relevant value for this method, and in this case, the path is still `/add-message` and
 the query is now `s=Oh%20hi%20there!`, equivalent to `s=Oh hi there!`.
-Because of these values, the `finalOutput` String goes from being `"Hello world!\n"` to being `"Hello world!\nOh hi there!"`.
+Because of these values, the `finalOutput` String goes from being `"Hello world!\n"` to being `"Hello world!\nOh hi there!"`.  
+  
+  
+  
+  
 ## Part 2
   
 The bug that I am choosing from lab 3 lies in the `reversed(int[] array)` method in the `ArrayExample.java` file. Which is shown below. 

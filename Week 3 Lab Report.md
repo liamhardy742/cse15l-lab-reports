@@ -45,8 +45,8 @@ This option and it's use/description was sourced from [https://man7.org/linux/ma
   
 The first example is:
 ![Image](/LabReportThreeScreenshots/-i1.png)
-In this example, grep -i "california" ./written_2/travel_guides/berlitz2/California-WhatToDo.txt finds all of the lines in the txt file that contain the String "california" without regard to the case sensitivity of the String. These lines are then printed out. This is useful for when you are searching for a String file but don't care about uppercase versus lowercase, for example you don't care if a word appears at the beginning or in the middle of a sentence.
+In this example, grep -i "california" ./written_2/travel_guides/berlitz2/California-WhatToDo.txt finds all of the lines in the txt file that contain the String "california" without regard to the case sensitivity of the String. These lines are then printed out. This is useful for when you are searching for a String file but don't care about uppercase versus lowercase, for example if you don't care if a word appears at the beginning or in the middle of a sentence.
 
 The second example is:
 ![Image](/LabReportThreeScreenshots/-i2.png)
-In this example, grep -i "nevada" ./written_2/travel_guides/berlitz2/California-WhatToDo.txt finds all of the lines in the txt file that contain the String "nevada" without regard to the case sensitivity of the String. These lines are then printed out. This is useful for when you are searching for a String file but don't care about uppercase versus lowercase, for example you don't care if a word appears at the beginning or in the middle of a sentence.
+In this example, grep -i "nevada" ./written_2/travel_guides/berlitz2/California-WhatToDo.txt finds all of the lines in the txt file that contain the String "nevada" without regard to the case sensitivity of the String. These lines are then printed out. This is useful for when you are searching for a String file but don't care about uppercase versus lowercase, for example if you don't care if a word appears at the beginning or in the middle of a sentence.

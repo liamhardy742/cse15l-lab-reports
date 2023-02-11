@@ -1,5 +1,5 @@
 # The command that I will be choosing is grep.  
-## The four options I will be researching are -rl, -cv, -n, and --exclude-dir=*GLOB*. 
+## The four options I will be researching are -rl, -cv, -n, and -i.
   
   
 

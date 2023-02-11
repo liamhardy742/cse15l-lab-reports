@@ -14,17 +14,17 @@ In this example, the command grep -rl "Hello" ./written_2 is searching all of th
 The second example is:
 ![Image](/LabReportThreeScreenshots/-rl2.png)
 In this example, the command grep -rl "goodness" ./written_2 is searching all of the files in the written_2 directory recursively for the String "goodness", and returns the file names that contain the String. This is useful if you want to easily search an entire directory for files that contain a specific string and easily know the name and path of those files.
-  \
-  \
-  \
-  \
-  \
-  \
-  \
-  \
-  \
-  \
-  \
+  \\
+  \\
+  \\
+  \\
+  \\
+  \\
+  \\
+  \\
+  \\
+  \\
+  \\
 ## The second option is -cv, which is a combination of the -c and the -v options. This prints the count of the files found (from the -c part), where the files found are files where no match is found (from the -v part).  
 This option and it's use/description was sourced from [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)  
   

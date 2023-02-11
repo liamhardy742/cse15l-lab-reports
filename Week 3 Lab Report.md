@@ -14,5 +14,5 @@ The section option is -cv, which is a combination of the -c and the -v options. 
 The third option is -n, which modifies the output so that the user can see the line number that the match appears on for each of the files found.  
   
   
-The fourth option is --exclude-dir=*GLOB* which performs a normal grep search but skips over any command-line directory that has the suffix which matches GLOB.  
+The fourth option is -i which performs a normal grep search but ignores the case of the matching string it is looking for. For example, when looking for "CaliforniA", "california" would be found as a match.
 

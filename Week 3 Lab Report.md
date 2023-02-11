@@ -24,7 +24,7 @@ In this example, the command grep -rl "goodness" ./written_2 is searching all of
 <br/>
 <br/>
 <br/>
-## The second option is -cv, which is a combination of the -c and the -v options. This prints the count of the files found (from the -c part), where the files found are files where no match is found (from the -v part).  
+## The second option is -cv, which is a combination of the -c and the -v options. This prints the count of the lines found (from the -c part), where the lines found are lines where no match is found (from the -v part).  
 This option and it's use/description was sourced from [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)  
   
   

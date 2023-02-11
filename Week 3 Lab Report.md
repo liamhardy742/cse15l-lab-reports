@@ -33,11 +33,11 @@ This option and it's use/description was sourced from [https://man7.org/linux/ma
   
 The first example is:
 ![Image](/LabReportThreeScreenshots/-n1.png)
-In this example, grep -n "goodness" ./written_2/non-fiction/OUP/Kauffmen/ch8.txt is used to find all of the lines in the txt file that contain the String "goodness". In this case, there is 1 line that is printed out. This file is useful because it prints out the lines containing the String, and tell the user the line in the txt file where the String is.
+In this example, grep -n "goodness" ./written_2/non-fiction/OUP/Kauffmen/ch8.txt is used to find all of the lines in the txt file that contain the String "goodness". In this case, there is 1 line that is printed out. This option is useful because it prints out the lines containing the String, and tell the user the line in the txt file where the String is.
 
 The second example is:
 ![Image](/LabReportThreeScreenshots/-n2.png)
-In this example, grep -n "birds" ./written_2/travel_guides/berlitz2/Bermuda-WhereToGo.txt is used to find all of the lines in the txt file that contain the String "birds". In this case, there are 3 lines that are all printed out. This file is useful because it prints out the lines containing the String, and tell the user the line in the txt file where the String is.
+In this example, grep -n "birds" ./written_2/travel_guides/berlitz2/Bermuda-WhereToGo.txt is used to find all of the lines in the txt file that contain the String "birds". In this case, there are 3 lines that are all printed out. This option is useful because it prints out the lines containing the String, and tell the user the line in the txt file where the String is.
   
 ## The fourth option is -i which performs a normal grep search but ignores the case of the matching string it is looking for. For example, when looking for "CaliforniA", "california" would be found as a match.
 This option and it's use/description was sourced from [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)  
@@ -45,6 +45,8 @@ This option and it's use/description was sourced from [https://man7.org/linux/ma
   
 The first example is:
 ![Image](/LabReportThreeScreenshots/-i1.png)
+In this example, grep -i "california" ./written_2/travel_guides/berlitz2/California-WhatToDo.txt finds all of the lines in the txt file that contain the String "california" without regard to the case sensitivity of the String. These lines are then printed out. This is useful for when you are searching for a String file but don't care about uppercase versus lowercase, for example you don't care if a word appears at the beginning or in the middle of a sentence.
 
 The second example is:
 ![Image](/LabReportThreeScreenshots/-i2.png)
+In this example, grep -i "nevada" ./written_2/travel_guides/berlitz2/California-WhatToDo.txt finds all of the lines in the txt file that contain the String "nevada" without regard to the case sensitivity of the String. These lines are then printed out. This is useful for when you are searching for a String file but don't care about uppercase versus lowercase, for example you don't care if a word appears at the beginning or in the middle of a sentence.

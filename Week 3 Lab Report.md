@@ -24,7 +24,7 @@ In this example, the command grep -rl "goodness" ./written_2 is searching all of
 <br/>
 <br/>
 <br/>
-## The second option is -cv, which is a combination of the -c and the -v options. This prints the count of the lines found (from the -c part), where the lines found are lines where no match is found (from the -v part).  
+## The second option is -cv, which is a combination of the -c and the -v options. This prints the count of the lines found (from the -c part), where the lines found are lines where no match to the command line argument for the searching String is found (from the -v part).  
 This option and it's use/description was sourced from [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)  
   
   
@@ -45,7 +45,7 @@ In this example, grep -cv " " ./written_2/travel_guides/berlitz1/HistoryIndia.tx
 <br/>
 <br/>
 <br/>
-## The third option is -n, which modifies the output so that the user can see the line number and the line that the match appears on for each of the matches found.  
+## The third option is -n, which modifies the output so that the user can see the line number and the line that the match to the command line argument for the searching String appears on for each of the matches found.  
 This option and it's use/description was sourced from [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)  
   
   
@@ -66,7 +66,7 @@ In this example, grep -n "birds" ./written_2/travel_guides/berlitz2/Bermuda-Wher
 <br/>
 <br/>
 <br/>
-## The fourth option is -i which performs a normal grep search but ignores the case of the matching string it is looking for. For example, when looking for "CaliforniA", "california" would be found as a match.
+## The fourth option is -i which performs a normal grep search but ignores the case of the matching string it is looking for. For example, when "CaliforniA" is passed in as a command line argument for the searching String, "california" would be found as a match.
 This option and it's use/description was sourced from [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)  
   
   

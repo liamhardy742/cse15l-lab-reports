@@ -3,7 +3,7 @@
   
   
 
-## The first option is -rl, which is a combination of the -r and -l options. This recursively searches the directory given as a command line argument (from the -r part), and prints the file names of the files that are found to conatin the command line argument that grep is searching for (from the -l part).  
+## The first option is -rl, which is a combination of the -r and -l options. This recursively searches the directory given as a command line argument (from the -r part), and prints the file names of the files that are found to contain the command line argument that grep is searching for (from the -l part).  
 This option and it's use/description was sourced from [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)  
     
   

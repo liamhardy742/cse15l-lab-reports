@@ -14,9 +14,9 @@ In this example, the command grep -rl "Hello" ./written_2 is searching all of th
 The second example is:
 ![Image](/LabReportThreeScreenshots/-rl2.png)
 In this example, the command grep -rl "goodness" ./written_2 is searching all of the files in the written_2 directory recursively for the String "goodness", and returns the file names that contain the String. This is useful if you want to easily search an entire directory for files that contain a specific string and easily know the name and path of those files.
-  \\
-  \\
-  \\
+  \n
+  \n
+  \n
   \\
   \\
   \\

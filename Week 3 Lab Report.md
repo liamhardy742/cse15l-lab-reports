@@ -1,4 +1,11 @@
+# Lab Report 3
+Liam Hardy
+A17272346
+<br/>
+<br/>
 # The command that I will be choosing is grep.  
+<br/>
+<br/>
 ## The four options I will be researching are -rl, -cv, -n, and -i.
   
   

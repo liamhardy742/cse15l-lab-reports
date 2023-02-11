@@ -45,7 +45,7 @@ In this example, grep -cv " " ./written_2/travel_guides/berlitz1/HistoryIndia.tx
 <br/>
 <br/>
 <br/>
-## The third option is -n, which modifies the output so that the user can see the line number and the line that the match appears on for each of the files found.  
+## The third option is -n, which modifies the output so that the user can see the line number and the line that the match appears on for each of the matches found.  
 This option and it's use/description was sourced from [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)  
   
   

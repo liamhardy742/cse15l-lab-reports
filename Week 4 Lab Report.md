@@ -1,7 +1,7 @@
 **1. Log into ieng6**  
   I typed "ssh cs15lwi23afd@ieng6.ucsd.edu" and then pressed `<enter>`  
     
-  Pressing enter runs the command I typed and sshs into the ieng6 account.  
+  Pressing `<enter>` runs the command I typed and sshs into the ieng6 account.  
   ![Image](LapReportFourScreenshots/(1)SshIntoIeng6.png)
     
     
@@ -12,7 +12,7 @@
 **2. Clone your fork of the repository from your Github account**  
   I typed "git clone https://github.com/liamhardy742/lab7" and then pressed `<enter>`  
     
-  Pressing enter runs the command I typed and clones the git repository
+  Pressing `<enter>` runs the command I typed and clones the git repository
   ![Image](LapReportFourScreenshots/(2)GitCloneRepo.png)
     
     
@@ -43,6 +43,7 @@
   Then I pressed `<right-arrow>` 12 times, pressed `<backspace>` and typed "2".  
   Then I pressed `<control>` + "x", typed "y", and then pressed `<enter>`.  
   
+  Pressing `<tab>` the first time autocompleted "nano L" to "nano ListExamples", and the second `<tab>` autocompleted "nano ListExamples.j" into "nano ListExamples.java", which was then run by the next `<enter>`.
   Pressing `<control>` + `<shift>` + "-" brought up a search bar to move to a given line, which I gave input as 43. Then pressing `<right-arrow>` 12 times brought me to the bug, where I could change the 1 to a 2 to fix the bug.  
   ![Image](LapReportFourScreenshots/(4)EditFilesToFixBug.png)
     
@@ -55,8 +56,10 @@
   I pressed `<up-arrow>` three times and then pressed `<enter>`.  
   Then I pressed `<up-arrow>` three times again and pressed `<enter>`.  
   
-  For the first time, the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 3 back in my command history, so pressing `<up-arrow>` three times accessed it.
-  Then, the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was 3 back in my command history, so pressing `<up-arrow>` three times accesssed it.
+  For the first `<up-arrow>` press, the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 3 back in my command history, so pressing `<up-arrow>` three times accessed it.  
+  Pressing `<enter>` ran the command.  
+  Then, the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was 3 back in my command history, so pressing `<up-arrow>` three times accesssed it.  
+  Pressing `<enter>` ran the command.  
   ![Image](LapReportFourScreenshots/(5)RunningTestsSuccessfully.png)
   
   
@@ -66,6 +69,8 @@
   
 **6. Commit and push the resulting change to your Github account (you can pick any commit message!)**  
   I typed "git add L" and pressed `<tab>`, typed ".j" and then pressed `<tab>`, and then pressed `<enter>`.  
-  Then I typed "git commit -m "Fixed an infinite loop bug on line 43"", and then typed "git push " and then "git@github.com:liamhardy742/lab7.git" (which I copied to clipboard via github).  
+  Then I typed "git commit -m "Fixed an infinite loop bug on line 43"", pressed `<enter>`, and then typed "git push " and then "git@github.com:liamhardy742/lab7.git" (which I copied to clipboard via github).  
   Then I pressed `<enter>`, and I was done with the task.  
+    
+  The first `<tab>` autocompleted "git add L" to "git add ListExamples", the second `<tab>` autocompleted "git add ListExamples.j" to "git add ListExamples.java", and then `<enter>` ran that command. The next `<enter>` command ran the git commit command, and the one after that ran the git push command.
   ![Image](LapReportFourScreenshots/(6)gitAddCommitAndPush.png)

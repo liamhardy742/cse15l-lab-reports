@@ -57,7 +57,7 @@
   Then I pressed `<up-arrow>` three times again and pressed `<enter>`.  
   
   For the first `<up-arrow>` press, the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 3 back in my command history, so pressing `<up-arrow>` three times accessed it.  
-  Pressing `<enter>` ran the command.  
+  Pressing `<enter>` ran the command.   
   Then, the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was 3 back in my command history, so pressing `<up-arrow>` three times accesssed it.  
   Pressing `<enter>` ran the command.  
   ![Image](LapReportFourScreenshots/(5)RunningTestsSuccessfully.png)

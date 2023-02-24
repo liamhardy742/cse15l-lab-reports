@@ -27,7 +27,7 @@
     
   Pressing `<tab>` the first time autocompleted the "cd l" to "cd lab7", and `<enter>` ran that command.  
   The next `<enter>` ran the command that compiled all of the java files preparing for testing.  
-  Then, the next `<tab>` autocompleted "L" to "ListExamples", the second `<tab>` autocompleted "ListExamplesT" to "ListExamplesTests.", which the `<backspace>` then turned into "ListExamplesTests".  
+  Then, the next `<tab>` autocompleted "L" to "ListExamples", the `<tab>` after that autocompleted "ListExamplesT" to "ListExamplesTests.", which the `<backspace>` then turned into "ListExamplesTests".  
   The last `<enter>` ran the testers.
   ![Image](LapReportFourScreenshots/(3)RunningTestsTheyFail.png)
     

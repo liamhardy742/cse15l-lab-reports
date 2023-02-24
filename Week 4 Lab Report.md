@@ -44,7 +44,7 @@
   Then I pressed `<control>` + "x", typed "y", and then pressed `<enter>`.  
   
   Pressing `<tab>` the first time autocompleted "nano L" to "nano ListExamples", and the second `<tab>` autocompleted "nano ListExamples.j" into "nano ListExamples.java", which was then run by the next `<enter>`.
-  Pressing `<control>` + `<shift>` + "-" brought up a search bar to move to a given line, which I gave input as 43. Then pressing `<right-arrow>` 12 times brought me to the bug, where I could change the 1 to a 2 to fix the bug.  
+  Pressing `<control>` + `<shift>` + "-" brought up a search bar to move to a given line, which I gave input as 43. Pressing `<enter>` brought me to that line. Then pressing `<right-arrow>` 12 times brought me to the bug, where I could change the 1 to a 2 to fix the bug. (via pressing `<backspace>`).  
   Next, pressing `<control>` + "x" exited nano, but before exiting nano asked if I want to save, which pressing "y" responds to as yes, and then `<enter>` which confirms the file name to write to, and saves the changes made.
   ![Image](LapReportFourScreenshots/(4)EditFilesToFixBug.png)
     

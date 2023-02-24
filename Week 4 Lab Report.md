@@ -8,7 +8,7 @@
   
 **3. Run the tests, demonstrating that they fail**  
   I typed "cd l" and pressed `<tab>` and then pressed `<enter>`.  
-  I typed "javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java" (by copy pasting from the course website week 3) and then pressed `<enter>`.  
+  Then I typed "javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java" (by copy pasting from the course website week 3) and then pressed `<enter>`.  
   Then I typed "java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore" (By copy pasting from the course website) and typed a space and then L `<tab>` T `<tab>` j `<tab>` and then pressed `<enter>`  
   ![Image](LapReportFourScreenshots/(3)RunningTestsTheyFail.png)
   

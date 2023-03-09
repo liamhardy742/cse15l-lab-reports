@@ -11,3 +11,4 @@ Giraffe
 [Lab Report 2](Week 2 Lab Report.md)
 [Lab Report 3](Week 3 Lab Report.md)
 [Lab Report 4](Week 4 Lab Report.md)
+[Lab Report 5](Week 5 Lab Report.md)

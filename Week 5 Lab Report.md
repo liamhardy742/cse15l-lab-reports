@@ -1,2 +1,4 @@
-For this lab report I will be making a bash script in order to complete the task for lab 7 as fast as possible.
+## For this lab report I will be making a bash script in order to complete the task for lab 7 as fast as possible.
+
+
 Because a bash script runs all of the commands on the machine in which the bash script was executed, it wasn't simple to include the ssh command in the bash script, so instead, I used scp to copy the bash script onto the ieng6 machine, and then ssh-ed into the machine, and then ran the bash script.

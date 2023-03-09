@@ -12,4 +12,4 @@ After deleting my fork of the repository and reforking the lab7 repository, the 
 
 Then, I could simply run `bash fixingBug.sh` to run the bash script and complete the task. The results are shown below:
 
-![Image](InsertImageLink)
+![Image](LabReportFiveScreenshots/finalOutput.png)
